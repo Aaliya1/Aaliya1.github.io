@@ -1,0 +1,408 @@
+body {
+    background: #14181E;
+    font-family: "merriweather-regular", serif;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #737373;
+}
+html, body {
+    height: 100%;
+}
+header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    z-index: 600;
+    background: transparent;
+   }
+header .row1 {
+width:auto;
+height:66px;
+position:relative;
+}
+.sticky {
+    position: fixed;
+    background: #14171c;
+    top: 0;
+}
+.navbar-brand {
+	color:#fff;
+	font-weight:bold;
+	text-shadow: 0px 0px 1px rgba(0,255,204,1);
+}
+.navbar-nav {
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.navbar-nav li a{
+	color:#98999a;
+	text-decoration:none;
+	text-align:left;
+	    display: block;
+    padding: 18spx 7px;
+    line-height: 30px;
+    position:relative;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-nav li a:hover {
+	color:#fff;
+}
+.navbar-nav li.highlight a {
+	color:#0F9;
+	
+}
+.navbar-nav li.current a {
+	color:#fff;
+}
+@media screen and (min-width:768px) {
+
+	.navbar-brand {
+		display:none;
+	}
+	.navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    
+    .navbar-nav>li>a {
+        line-height: normal;
+	    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+	
+    }
+	
+.navbar-nav {
+    min-height: 66px;
+    display: inline-block;
+    width: auto;
+    text-align: left;
+	margin:0;
+	padding:0;
+}
+.navbar-nav li {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 66px;
+}
+.navbar-nav li.current a {
+	color:#fff;
+}
+.navbar-nav li a{
+	color:#98999a;
+	text-decoration:none;
+	text-align:left;
+	    display: block;
+    padding: 18px 7px;
+    line-height: 30px;
+    position:relative;
+	font-weight:bold;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -webkit-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.navbar-nav li.highlight a {
+	color:#0F9;
+	
+}
+}
+#intro {
+	background: #14181E url(file:///C|/Users/Farheen/Desktop/newAaliya/Aaliya_Islam_Files/images/intro-bg.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 720px;
+    position: relative;
+	color:#fff;
+	text-align:center;
+}
+#info {
+	font-size:18px;
+}
+.btn-styl {
+	    padding: 15px 30px
+}
+.btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn-primary {
+	margin-top:60px;
+    color: #ffffff;
+    background-color:#f05f40;
+    border-color: #f05f40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+#intro a:hover {
+	background-color:red;
+	border:none;
+}
+#about {
+	background:url(file:///C|/Users/Farheen/Desktop/newAaliya/Aaliya_Islam_Files/images/images_10.jpeg);
+	  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+	 min-height: 750px;
+    position: relative;
+	text-align:center;
+	font-size:18px;
+}
+#im {
+	margin:20px;
+	 height:250px;
+	  width:250px;
+border-radius:300px;
+}
+#resume {
+	color:#FFF;
+	font-size:16px;
+	letter-spacing:1px;
+	min-height:1350px;
+}
+hr
+{
+	border-color:#686868;
+	width:400px;
+}
+#mar {
+	margin-left:50px;
+}
+p#h {
+	padding-top:40px;
+	text-transform:uppercase;
+	font-weight:bold;
+	
+}
+#resume h3,
+#contact h3,#resume h3 a {
+	color:#666;
+}
+#resume #h span {
+	border-bottom: 3px solid #0F9;
+	padding-bottom:6px;
+}
+p#in {
+	padding:40px 0px;
+	}
+p h3 a {
+	text-decoration:none;
+	color:#98999a;
+}
+
+#motivation {
+	background:url(file:///C|/Users/Farheen/Desktop/newAaliya/Aaliya_Islam_Files/images/sky.jpeg)  no-repeat;
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	text-align:center;
+	font-size:25px;
+	min-height:300px;
+}
+
+#motivation  span {
+	border-bottom: 3px solid #0F9;
+	padding-bottom:6px;
+	text-transform:uppercase;
+}
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus { outline:none}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.flexslider {
+	margin:0;
+	padding:0;
+}
+.flexslider .slides >li {
+	display:none;
+	-webkit-backface-visibility :hidden;
+}	
+.slides:after {
+	content:".";
+	display:block;
+	clear: both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+html[xmlns] .slides {
+	display:block;
+}
+*html .slides {height:1%;}
+.flexslider {
+	position:relative;
+	zoom:1;
+	padding:10px;
+	background:transparent;
+	height:200px;
+	width:70%;
+	margin:auto;
+	
+	}
+.flexslider .slides {
+	zoom:1;
+}	
+.flex-direction-nav a {
+	display:block;
+	position:absolute;
+	margin:-17px 0 0 0;
+	width:35px;
+	height:35px;
+	top:40%;
+	cursor:pointer;
+	text-indent: -9999px;
+	background-color:#686868;
+	
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#808080), to(#303030));
+	}
+.flex-direction-nav a:before {
+	display:block;
+	position:absolute;
+	content: '';
+	width: 0;
+	height:0;
+	top:35px;
+	
+}	
+.flex-direction-nav a:after {
+	display:block;
+	position:absolute;
+	content: '';
+	width:0;
+	height:0;
+	top:35px;
+}
+.flex-direction-nav .flex-next {
+	right: -5px;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	border-radius:0 3px 3px 0;
+}
+.flex-direction-nav .flex-prev {
+	left: -5px;
+	-webkit-border-radius: 3px 0 0 3px ;
+	-moz-border-radius:3px 0 0 3px;
+	border-radius:3px 0 0 3px;
+}
+.flex-direction-nav .flex-next:before {
+	background-position:-9px 0;
+}
+.flex-direction-nav .flex-prev:before {
+	
+	left:0;
+	border-bottom:5px solid transparent;
+	border-right:15px solid #31611e;
+}
+.flex-direction-nav .flex-next:after {
+	right:0;
+	border-bottom:5px solid transparent;
+	border-left:15px solid #31611e;
+}
+.flexslider .flex-control-nav {
+	position:absolute;
+	width:100%;
+	bottom:-15px;
+	text-align:center;
+	margin:0 0 0 -10px;
+}
+.flex-control-nav li {
+	display:inline-block;
+	zoom: 1;
+}
+.flex-control-paging li a {
+	display:block;
+	cursor:pointer;
+	text-indent: -9999px;
+	width:10px;
+	height:10px;
+	margin:0 2px;
+	background-color:#b6b6b6;
+	-webkit-box-shadow:inset 0 0 0 2px #b6b6b6;
+	-moz-box-shadow:inset 0 0 0 2px #b6b6b6;
+	box-shadow:inset 0 0 0 2px #b6b6b6;	
+}
+.flex-control-paging li a.flex-active {
+	background-color:#0F9;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+/* ---- flexslider css ends ----*/
+#contact {
+	min-height:350px;
+	text-align:center;
+	color:#FFF;
+}
+#contact #Again-topPage {
+	margin-top: -50px;
+  
+   margin-left: 45%;
+}
+#contact #Again-topPage a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 90px;
+	height: 90px;
+	background-color: #303030;
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+   color: #fff;
+   
+   text-align:center;
+	border-radius:300px;
+}
+#contact .social [class *="fa fa-"] {
+	background-color:#333;
+	border-radius:30px;
+	color:#fff;
+	display:inline-block;
+    height:34px;
+	margin:15px 3px ;
+	width:34px;
+	font-size:18px;
+	border: 2px solid #c6c6c7;
+	line-height:32px;
+	text-align:center;
+}
+#contact #aaliya {
+	color:#0F9;
+	letter-spacing:1px;
+	padding-top:190px;
+
+}
+}

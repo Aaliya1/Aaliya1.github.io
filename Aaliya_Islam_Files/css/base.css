@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body, input, button {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	color:#fff;
+	background-color:#000;
+}
+.row1 {
+	max-width:1140px;
+	margin:0px auto;
+
+}
