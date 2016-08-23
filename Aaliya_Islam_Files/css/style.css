@@ -160,7 +160,7 @@ position:relative;
 	border:none;
 }
 #about {
-	background:url(file:///C|/Users/Farheen/Desktop/newAaliya/Aaliya_Islam_Files/images/images_10.jpeg);
+	background:url("/Aaliya_Islam_Files/images/images_10.jpeg");
 	  -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -214,7 +214,7 @@ p h3 a {
 }
 
 #motivation {
-	background:url(file:///C|/Users/Farheen/Desktop/newAaliya/Aaliya_Islam_Files/images/sky.jpeg)  no-repeat;
+	background:url("/Aaliya_Islam_Files/images/motivation.jpeg")  no-repeat;
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
